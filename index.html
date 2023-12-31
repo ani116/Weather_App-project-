@@ -19,9 +19,9 @@
         <div class="weather-container">
 
             <!-- grant access location -->
-            <div class="grant-location-container">
+            <div class="sub-container grant-location-container">
                 <img src="image/location.png" alt="" width="80" height="80" loading="lazy">
-                <p>grant access location</p>
+                <p>Grant access location</p>
                 <p>Allow Access to get weather information</p>
                 <button class="btn" data-grantAccess>Grant Access</button>
             </div>
@@ -35,16 +35,16 @@
             </form>
 
             <!-- loading screen container -->
-            <div class="loading-container">
+            <div class="sub-container loading-container">
                 <img src="image/loading.gif" alt="" width="150" height="150">
-                <p>Loading</p>
+                <p>LOADING</p>
             </div>
 
             <!-- show weather information -->
-            <div class="user-info-container">
+            <div class="sub-container user-info-container">
 
                 <!-- city name and flag -->
-                <div>
+                <div class="name">
                     <p data-cityName></p>
                     <img data-countryIcon>
                 </div>
@@ -62,7 +62,7 @@
                     <!-- card1 -->
                     <div class="parameter">
                         <img src="image/wind.png" alt="">
-                        <p>Wind Speed</p>
+                        <p>WindSpeed</p>
                         <p data-windSpeed></p>
                     </div>
 
